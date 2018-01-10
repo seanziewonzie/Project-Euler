@@ -1,0 +1,8 @@
+max = 100
+sum = 0
+sumsquares = 0
+for i in range(max + 1):
+    sum = sum + i
+    sumsquares = sumsquares + i*i
+squaresum = sum*sum
+print(squaresum - sumsquares)
