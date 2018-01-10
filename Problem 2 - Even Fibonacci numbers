@@ -1,0 +1,11 @@
+max = 4000000
+sum = 0
+a = 0
+b = 1
+while b in range(4000000+1):
+    c= a+b
+    a=b
+    b=c
+    if b%2 == 0:
+        sum = sum + b
+print sum
