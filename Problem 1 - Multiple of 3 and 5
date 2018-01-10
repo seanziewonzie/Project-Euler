@@ -1,0 +1,9 @@
+max = 1000
+sum= 0
+firstfactor = 3
+secondfactor = 5
+prod = firstfactor*secondfactor
+for n in range(max):
+    if n%firstfactor == 0 or n%secondfactor == 0 and n%prod!= 0:
+        sum = sum + n
+print sum
