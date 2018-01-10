@@ -1,0 +1,13 @@
+max = 10001
+primelist = [2]
+n=3
+while len(primelist) < max:
+    ndivs = 0
+    for m in range (len(primelist)):
+        if n%primelist[m] == 0:
+            ndivs = ndivs + 1
+    if ndivs == 0:
+        primelist.append(n)
+    n=n+2
+                
+print(primelist[len(primelist)-1])
