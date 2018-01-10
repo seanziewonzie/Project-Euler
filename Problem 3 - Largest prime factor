@@ -1,0 +1,9 @@
+number = 600851475143
+if number%2 == 0:
+    number = number // 2
+a=3
+while not number == 1:
+	while number%a == 0:
+		number = number // a
+	a = a + 2
+print(a - 2)
